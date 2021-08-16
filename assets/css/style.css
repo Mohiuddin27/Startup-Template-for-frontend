@@ -1,0 +1,128 @@
+
+.team .team-item img{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.section-title{
+    padding:50px;
+}
+.section-title h2{
+    font-family: impact;
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+}
+.section-title p{
+    font-family: canbria;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.section-title .section-title-border{
+    width:200px;
+    height: 5px;
+    background-color: gray;
+    margin:auto;
+}
+.slider{
+    position: relative;
+}
+.our-slider{
+    width:100%;
+    height:250px;
+
+}
+
+.our-silder img{
+    width:100%;
+    height:250px;
+}
+.owl-carousel .owl-item img {
+    /* display: block; */
+    width: 100%;
+    height:400px;
+}
+.slider .owl-nav{
+    font-size:100px;
+    color:white;
+    
+   
+    
+}
+.slider .owl-nav .owl-prev{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    transition: .4s;
+    
+}
+.slider:hover .owl-nav .owl-prev{
+    transform: translate(30px,0px);
+}
+.slider .owl-nav .owl-next{
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    transition:.4s;
+    
+}
+.slider:hover .owl-nav .owl-next{
+    transform: translate(-30px,0px);
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+   
+    outline: none;
+}
+.slider .owl-dots{
+    position: absolute;
+    bottom:0;
+    top:190%;
+    left:40%;
+    display: block;
+    margin:auto;
+    text-align: center;
+}
+
+.slider .owl-dots .owl-dot{
+    width:30px;
+    height: 30px;
+    background-color:transparent;
+    margin: 5px;
+    border:2px solid gray;
+    border-radius: 50%;
+    
+    
+}
+
+.slider .owl-dots .owl-dot.active{
+    background-color:black;
+}
+.testi-slider .testi-item img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin:auto;
+    display: block;
+}
+.testi-slider .testi-item p{
+    text-align: center;
+}
+.testi-slider .testi-item h2{
+    text-align: center;
+}
+.project-items{
+    flex-wrap: wrap;
+}
+.p-items{
+    width:300px;
+    height:500px;
+}
+.card-body img{
+    width:100%;
+    height:100%;
+}
