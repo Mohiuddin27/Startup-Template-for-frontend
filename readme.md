@@ -13,3 +13,10 @@ This is a startup template for frontend development. Any one can use this templa
  - node sass
  - font awesome
  - themify icon 
+
+ #### Use System
+ - Download this repo
+ - Install npm
+ ```php
+ npm install
+ ```
